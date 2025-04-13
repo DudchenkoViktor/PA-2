@@ -4,6 +4,7 @@
 
 int main() {
 	MyClass obj;
-	std::cout << "Result: " << obj.FuncA() << std::end1;
+	double x = 0.5;
+	std::cout << "Sum of first 3 term: " << obj.FuncA(x) << std::end1;
 	return 0;
 }
