@@ -1,0 +1,14 @@
+Source: program
+Section: utils
+Priority: optional
+Maintainer: Viktor Dudchenko <viktordudcenko525@gmail.com>
+Build-Depends:
+ debhelper-compat (= 11), g++, autotools-dev
+Standards-Version: 4.1.3
+
+Package: program
+Architecture: any
+Multi-Arch: foreign
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: Program for series calculation
+ A C++ program that calculates the sum of mathematical series.

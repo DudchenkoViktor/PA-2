@@ -1,0 +1,5 @@
+program (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- viktor <viktor@unknown>  Mon, 14 Apr 2025 16:01:21 +0000
